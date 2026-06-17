@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "enchantabbr26",
+  "version": "${version}",
+  "name": "Enchant Abbreviation 26",
+  "description": "Standalone SkyBlock enchanted book abbreviation overlay for Minecraft 26.1.2.",
+  "authors": ["ported from Skyblocker logic"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.panda.enchantabbr.EnchantAbbrClient"]
+  },
+  "mixins": ["enchantabbr26.mixins.json"],
+  "depends": {
+    "minecraft": ">=26.1.2 <=26.1.2",
+    "fabricloader": ">=0.19.3",
+    "fabric-api": ">=0.152.1+26.1.2",
+    "java": ">=25"
+  }
+}
